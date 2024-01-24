@@ -37,11 +37,130 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Tea House</title>
+    <title>Hockey</title>
   </head>
   <body class="font-manrope">
     <header></header>
-    <main></main>
+    <main class="container mx-auto">
+      <!-- Slider -->
+      <section class="relative">
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="./images/1.png" class="w-full" />
+            <div
+              class="absolute flex justify-around transform lg:translate-y-96 left-44 lg:left-5 top-40 lg:top-64 w-auto"
+            >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-black border-0 text-white"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-black border-0 text-white ml-5"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="./images/1.png" class="w-full" />
+            <div
+              class="absolute flex justify-around transform lg:translate-y-96 left-44 lg:left-5 top-40 lg:top-64 w-auto"
+            >
+              <a
+                href="#slide2"
+                class="btn btn-circle bg-black border-0 text-white"
+                >❮</a
+              >
+              <a
+                href="#slide1"
+                class="btn btn-circle bg-black border-0 text-red-50 ml-5"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="lg:absolute bg-black p-5 rounded-lg bottom-8 right-5 mt-5">
+          <h3 class="text-white mb-1">Meet all the heros from the field</h3>
+          <p class="text-gray-400">
+            We are a rising star in the south. Palmetto Hockey represent best
+            hockey club in the Southern USA.
+          </p>
+        </div>
+      </section>
+
+      <!-- Statistics section -->
+      <section>
+        <div class="text-center">
+          <h2 class="text-4xl font-extrabold mt-20">
+            Professional Hockeys Club
+          </h2>
+          <p class="font-medium text-lg text-gray-400 mt-6">
+            We are a rising star in the south. Palmetto Hockey represent best
+            hockey club in the Southern USA.
+          </p>
+        </div>
+        <!-- progress -->
+        <div class="lg:flex mx-auto justify-center my-8">
+          <!-- First progress -->
+          <div class="mx-auto flex-col justify-center text-center mt-6">
+            <div
+              class="radial-progress text-secodary text-[#FF4240] mb-3"
+              style="--value: 87"
+              role="progressbar"
+            >
+              87%
+            </div>
+            <h4 class="font-semibold text-2xl">Prayer Facility</h4>
+            <p class="font-medium text-lg text-gray-400">
+              We are a rising star <br />in the south.
+            </p>
+          </div>
+          <!-- Second progress -->
+          <div class="mx-auto flex-col justify-center text-center mt-6">
+            <div
+              class="radial-progress text-secodary text-[#49D293] mb-3"
+              style="--value: 95"
+              role="progressbar"
+            >
+              95%
+            </div>
+            <h4 class="font-semibold text-2xl">Experienced Coach</h4>
+            <p class="font-medium text-lg text-gray-400">
+              We are a rising star <br />in the south.
+            </p>
+          </div>
+          <!-- Third progress -->
+          <div class="mx-auto flex-col justify-center text-center mt-6">
+            <div
+              class="radial-progress text-secodary text-[#FFB546] mb-3"
+              style="--value: 90"
+              role="progressbar"
+            >
+              90%
+            </div>
+            <h4 class="font-semibold text-2xl">Senior Player</h4>
+            <p class="font-medium text-lg text-gray-400">
+              We are a rising star <br />in the south.
+            </p>
+          </div>
+          <!-- Fourth progress -->
+          <div class="mx-auto flex-col justify-center text-center mt-6">
+            <div
+              class="radial-progress text-secodary text-[#4C8DF1] mb-3"
+              style="--value: 80"
+              role="progressbar"
+            >
+              80%
+            </div>
+            <h4 class="font-semibold text-xl">Training Ground</h4>
+            <p class="font-medium text-lg text-gray-400">
+              We are a rising star <br />in the south.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
